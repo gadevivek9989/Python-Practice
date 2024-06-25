@@ -18,6 +18,17 @@ print(type(greeting))
 print(type(age))
 #str is a abrivation of string and int is a abrivation of integer
 
-age = '2 years'
-print(age)
+age_in_years = '2 years'
+print(name + f" is {age} years old")
 print(type(age))
+
+print(f"pi  is approxmately {22/7:12.50f}")
+
+pi=22/7
+
+print(f"pi is approximately {pi:12.50f}")
+
+
+
+
+
