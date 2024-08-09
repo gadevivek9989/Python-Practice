@@ -1,7 +1,7 @@
 from nested_data import albums
 
 SONGS_LIST_INDEX = 3
-SONGS_TITLE_INDEX = 3
+SONG_TITLE_INDEX = 3
 
 while True:
     print('please choose your album (invalid choice exists):')
@@ -20,7 +20,7 @@ while True:
 
     song_choice = int(input())
     if 1<= song_choice <= len(songs_list):
-        title = songs_list[song_choice - 1][SONGS_TITLE_INDEX]
+        title = songs_list[song_choice - 1][SONG_TITLE_INDEX]
     else:
         break
 
