@@ -18,5 +18,9 @@ for album in albums:
     name,artist,year = album
     print("Album:{} , artist:{} , year:{}".format(name,artist,year))
 
+print('space')
+
 for name,artist,year in albums:
     print("Album:{} , artist:{} , year:{}".format(name,artist,year))
+
+#this all gives same output but different ways of unpacking methods used above
