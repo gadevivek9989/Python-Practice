@@ -1,8 +1,8 @@
 def banner_text(text):
     screen_width = 80
+    
     if len(text) > screen_width - 4:
-        print("EEK!!")
-        print("THE TEXT IS TOO LONG TO FIT IN THE SPECEFIED WIDTH")
+        raise ValueError('string {0} is larger then speciefied width {1}'.format(text,screen_width))
 
     if text == "*":
         print("*" * screen_width)
@@ -12,6 +12,13 @@ def banner_text(text):
         print(output_string)
 
 
-
-numbers = [2 , 3, 4, 7, 8 ,9]
-print(numbers)
+banner_text("*")
+banner_text('Cheer up Brian, you know what they say?')
+banner_text('Some things in life are bad')
+banner_text('They can really make you mad')
+banner_text(' ')
+banner_text('Other things just make you swear and curse')
+banner_text("When you're chewing on life's gristle")
+banner_text("Don't grumble, give a whistle")
+banner_text("And this'll help things turn out for the best")
+banner_text("*")
