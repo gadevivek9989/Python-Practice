@@ -16,7 +16,7 @@ def palindrome_sentence(sentence):
             string += char
     print(string)
     #return string[::-1].lower() == string.lower()
-    return is_palindrome(string)
+    return is_palindrome(string)  
 
 word = input('please enter a word to check: ')
 if palindrome_sentence(word.lower()):                #if you not enter lower() or casefold() then if you enter mixed captial and small letter words it gives you worng output or you can add these near return string and near string
